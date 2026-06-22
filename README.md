@@ -17,12 +17,15 @@ Fractured Teeth
 ## ⚙️ Installation
 
 Clone the repository and install dependencies:
-
-git clone https://github.com/your-username/dental-caries-detection-yolov8.git  
+```Bash
+git clone https://github.com/your-username/dental-caries-detection-yolov8.git
+```
+```Bash
 cd dental-caries-detection-yolov8  
-  
+```  
+```Bash
 pip install -r requirements.txt  
-
+```
 ## 📦 Requirements  
 
 opencv-python  
