@@ -4,7 +4,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # Path of output images
-image_paths = glob.glob("runs/detect/predict/*.jpg")
+image_paths = glob.glob("../demo/*.jpg")
 
 # Checking if we have an image or not
 if len(image_paths) == 0:
