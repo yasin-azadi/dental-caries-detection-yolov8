@@ -137,6 +137,12 @@ This project ignores:
 
 ---
 
+## ⚠️ Disclaimer
+
+This project is an experimental and demo-level implementation for educational and research purposes only.  
+It is **not intended for real clinical or medical use** and should not be relied upon for professional dental diagnosis or treatment decisions.
+
+---
 ## 👨‍💻 Author  
 
 Developed using Ultralytics YOLOv8 for educational and research purposes.  
