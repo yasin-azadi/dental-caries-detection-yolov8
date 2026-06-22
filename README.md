@@ -1,9 +1,9 @@
-#📌 Project Overview
+# 📌 Project Overview
 
 Dental diseases detection is an important step toward automated dental diagnosis.  
 In this project, we use a deep learning-based object detection model (YOLOv8) to identify and classify dental conditions from augmented dataset images.
 
-##🎯 Detected Classes
+## 🎯 Detected Classes
 
 Healthy Teeth  
 Caries  
@@ -14,7 +14,7 @@ Fractured Teeth
 
 ---
 
-##⚙️ Installation
+## ⚙️ Installation
 
 Clone the repository and install dependencies:
 
@@ -23,7 +23,7 @@ cd dental-caries-detection-yolov8
   
 pip install -r requirements.txt  
 
-##📦 Requirements  
+## 📦 Requirements  
 
 opencv-python  
 matplotlib  
@@ -31,7 +31,7 @@ ultralytics
 
 ---
 
-##🚀 Training the Model  
+## 🚀 Training the Model  
 
 To train YOLOv8 on your dataset:  
 
@@ -40,7 +40,7 @@ python train.py
 ```
 ---
 
-##🧠 Training Configuration  
+## 🧠 Training Configuration  
 
 ```Python  
 model = YOLO("yolov8n.pt")  
@@ -54,7 +54,7 @@ model.train(
 ```
 ---
 
-##🔍 Inference (Prediction)  
+## 🔍 Inference (Prediction)  
 
 Run inference on test images:  
 
@@ -63,7 +63,7 @@ python src/predict.py
 ```
 ---
 
-##📌 Prediction Code  
+## 📌 Prediction Code  
 
 ```Python  
 model = YOLO("../models/best.pt")  
@@ -78,7 +78,7 @@ Output results will be saved automatically in the runs/ directory.
 
 ---
 
-##📊 Visualization of Results  
+## 📊 Visualization of Results  
 
 To visualize random prediction results:  
 
@@ -92,7 +92,7 @@ This script:
 
 ---
 
-##🗂 Dataset Configuration (data.yaml)  
+## 🗂 Dataset Configuration (data.yaml)  
 
 ```YAML  
 path: Augmented_Data  
@@ -111,7 +111,7 @@ names:
 ```
 ---
 
-##🧪 Results  
+## 🧪 Results  
 
 After training, the best model weights are saved at:  
 
@@ -123,7 +123,7 @@ runs/detect/predict/
 
 ---
 
-##🚫 .gitignore Highlights  
+## 🚫 .gitignore Highlights  
 
 This project ignores:  
 - Python cache files  
@@ -134,7 +134,7 @@ This project ignores:
 
 ---
 
-##👨‍💻 Author  
+## 👨‍💻 Author  
 
 Developed using Ultralytics YOLOv8 for educational and research purposes.  
 
