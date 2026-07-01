@@ -147,5 +147,6 @@ It is **not intended for real clinical or medical use** and should not be relied
 
 Developed using Ultralytics YOLOv8 for educational and research purposes.  
 
-⭐ If you like this project  
-Give it a star ⭐ on GitHub to support further improvements.
+
+
+
